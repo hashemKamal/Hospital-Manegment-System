@@ -1,0 +1,18 @@
+﻿@model Hospital.Models.Patient
+
+<h2>Create Patient</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-2">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Back to List</a>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2026 - Hospital - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

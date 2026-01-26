@@ -1,0 +1,26 @@
+﻿@model Hospital.Models.Clinic
+@{
+    ViewData["Title"] = "Edit Clinic";
+}
+
+<h2>Edit Clinic</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2026 - Hospital - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

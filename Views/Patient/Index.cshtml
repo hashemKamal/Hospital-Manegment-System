@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Hospital.Models.Patient>
+
+<h2 class="mb-3">Patients</h2>
+
+<a class="btn btn-success mb-3" asp-action="Create">+ Add Patient</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            @* <th>Appointments</th> *@
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                @* <td>@item.</td> *@
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2026 - Hospital - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

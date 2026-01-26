@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Hospital</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Hospital.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+       
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
+                    🏥 Hospital
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Doctors -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Doctors</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Doctor" asp-action="Index">View Doctors</a></li>
+                                <li><a class="dropdown-item" asp-controller="Doctor" asp-action="Create">Add Doctor</a></li>
+                            </ul>
+                        </li>
+                        <!-- Patients -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Patients</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Patient" asp-action="Index">View Patients</a></li>
+                                <li><a class="dropdown-item" asp-controller="Patient" asp-action="Create">Add Patient</a></li>
+                            </ul>
+                        </li>
+                        <!-- Appointments -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Appointments</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Appointment" asp-action="Index">View Appointments</a></li>
+                                <li><a class="dropdown-item" asp-controller="Appointment" asp-action="Create">Add Appointment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Clinic -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Clinics</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Clinic" asp-action="Index">View Clinics</a></li>
+                                <li><a class="dropdown-item" asp-controller="Clinic" asp-action="Create">Add Clinic</a></li>
+                            </ul>
+                        </li>
+                        <!-- Prescription -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Prescription</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Prescription" asp-action="Index">View Prescriptions</a></li>
+                                <li><a class="dropdown-item" asp-controller="Prescription" asp-action="Create">Add Prescription</a></li>
+                            </ul>
+                        </li>
+                        <!-- Staff -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Staff</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Staff" asp-action="Index">View All Staff</a></li>
+                                <li><a class="dropdown-item" asp-controller="Staff" asp-action="Create">Add Staff</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="navbar-text text-light fw-semibold">
+                        Hospital Management System
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
