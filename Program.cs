@@ -1,3 +1,4 @@
+using Azure.Identity;
 using Hospital.Data;
 using Microsoft.EntityFrameworkCore;
 
