@@ -1,14 +1,4 @@
-﻿//namespace Hospital.Models
-//{
-//    public class Clinic
-//    {
-//        public int Id { get; set; }
-//        public string Name { get; set; }
-
-//        public ICollection<Doctor> Doctors { get; set; }
-//    }
-//}
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Hospital.Models

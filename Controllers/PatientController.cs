@@ -2,8 +2,6 @@
 using Hospital.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
-
 namespace Hospital.Controllers
 {
     public class PatientController : Controller

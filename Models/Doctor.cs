@@ -1,14 +1,4 @@
-﻿//namespace Hospital.Models
-//{
-//    public class Doctor
-//    {
-//        public int Id { get; set; }
-//        public string Name { get; set; }
-//        public ICollection<Appointment> Appointments { get; set; }
-//        public ICollection<Clinic> Clinics { get; set; }
-//    }
-//}
-namespace Hospital.Models;
+﻿namespace Hospital.Models;
 
 public class Doctor
 {

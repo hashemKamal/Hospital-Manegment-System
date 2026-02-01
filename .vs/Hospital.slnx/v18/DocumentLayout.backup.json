@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\programming\\Hospital\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\views\\prescription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:views\\prescription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|c:\\programming\\hospital\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00E733C-8784-44F3-92E6-70C592D8C5DE}|Hospital.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +50,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Views\\Prescription\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prescription\\Index.cshtml",
+              "ToolTip": "C:\\programming\\Hospital\\Views\\Prescription\\Index.cshtml",
+              "RelativeToolTip": "Views\\Prescription\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T20:13:41.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:10:32.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:10:25.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Models\\Clinic.cs",
+              "RelativeDocumentMoniker": "Models\\Clinic.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Models\\Clinic.cs",
+              "RelativeToolTip": "Models\\Clinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:10:20.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:10:14.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClinicController.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Controllers\\ClinicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClinicController.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Controllers\\ClinicController.cs",
+              "RelativeToolTip": "Controllers\\ClinicController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:08:54.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\programming\\Hospital\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -30,19 +140,46 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T12:33:33.511Z"
+              "WhenOpened": "2026-01-26T12:33:33.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:09:03.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\programming\\Hospital\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\programming\\Hospital\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACICAAAAAAAAAAAAAGwAAACjAAAAAAAAAA==",
+              "ViewState": "AgIAADcCAAAAAAAAAAAAAGwAAACjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-26T11:52:07.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\programming\\Hospital\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\programming\\Hospital\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:09:14.349Z",
               "EditorCaption": ""
             }
           ]
