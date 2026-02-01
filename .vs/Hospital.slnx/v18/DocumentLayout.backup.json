@@ -30,8 +30,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T12:33:33.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T12:33:33.511Z"
             },
             {
               "$type": "Document",
@@ -39,9 +38,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\programming\\Hospital\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\programming\\Hospital\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGwAAACjAAAAAAAAAA==",
+              "ToolTip": "C:\\programming\\Hospital\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACICAAAAAAAAAAAAAGwAAACjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-26T11:52:07.099Z",
               "EditorCaption": ""
