@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1blWZf+Lvf8=",
+  "dgSpecHash": "UPrS6qrx3+4=",
   "success": true,
-  "projectFilePath": "C:\\programming\\Hospital\\Hospital.csproj",
+  "projectFilePath": "C:\\Users\\hashe\\OneDrive\\Desktop\\Hospital\\Hospital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hashe\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\hashe\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.4.0\\azure.extensions.aspnetcore.configuration.secrets.1.4.0.nupkg.sha512",

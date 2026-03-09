@@ -3545,11 +3545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\programming\\Hospital\\Hospital.csproj",
+      "projectUniqueName": "C:\\Users\\hashe\\OneDrive\\Desktop\\Hospital\\Hospital.csproj",
       "projectName": "Hospital",
-      "projectPath": "C:\\programming\\Hospital\\Hospital.csproj",
+      "projectPath": "C:\\Users\\hashe\\OneDrive\\Desktop\\Hospital\\Hospital.csproj",
       "packagesPath": "C:\\Users\\hashe\\.nuget\\packages\\",
-      "outputPath": "C:\\programming\\Hospital\\obj\\",
+      "outputPath": "C:\\Users\\hashe\\OneDrive\\Desktop\\Hospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3626,7 +3626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
